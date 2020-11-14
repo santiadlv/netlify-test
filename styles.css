@@ -1,0 +1,23 @@
+a:link.initial, a:visited.initial {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover.initial {
+  text-decoration: none;
+  font-weight: 700;
+  color: red;
+}
+
+.initial {
+  font-size: 300%;
+}
+
+.center { 
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
